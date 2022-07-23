@@ -15,7 +15,6 @@ public class IsPrime {
                 count += 2;
             }
         }
-
         if (count == 2) {
             System.out.print("YES");
         } else {
