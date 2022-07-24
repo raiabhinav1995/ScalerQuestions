@@ -10,8 +10,8 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{3, 10, 6, 8, 15, 2, 12, 18, 1, 7};
-        mergeSort(arr, 0, 9);
+        int[] arr = new int[]{8, 7};
+        mergeSort(arr, 0, arr.length - 1);
         for (int i : arr) {
             System.out.println(i);
         }
