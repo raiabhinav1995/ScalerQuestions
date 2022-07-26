@@ -16,6 +16,6 @@ public class PowerRaised {
     }
 
     public static void main(String[] args) {
-        System.out.println(PowerRaised.powerRaised(2, 10));
+        System.out.println(PowerRaised.powerRaised(15, 5));
     }
 }
